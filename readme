@@ -1,1 +1,611 @@
 
+@@ -15,16 +15,14 @@ NOTE: Make sure you refresh the page! Sometimes you will not get the lastest upd
+
+🐱 | Changes by u4pak
+🐧 | Changes by Piplup7575
+🕹️ | Changes by ThatOnePerson (AKA RetroWonder)
+   | Changes by Echo (unless specified)
+
++ Means something was added
+^ Means something was upgraded or changed
+- Means something was removed
+------------------------------------------------------------
+May, 14
++ Added 50+ Games 🕹️
+^ Re Added the Heroku deployment method! 🕹️
++ Added 50+ Games (Thank you ThatOnePerson!)
+------------------------------------------------------------
+May, 13
++ Added gimme the airpod
+  26  
+index.html
+@@ -1039,7 +1039,7 @@ <h1 style="color: white;">Hextris</h1>
+                  </div>
+                </div>
+                <div>
+		  <div class="card">
+                  <div class="card">
+                    <img class="thumb" width="300" height="300" src="/projects/hba/hoverbotarena.jpg" alt="HBA_img" />
+                    <h1 style="color: white;">Hover Bot Arena</h1>
+                    <p class="desc">A fast-paced shooter with multiple mission objectives and bosses. It's a lot of fun to bounce around between the walls while blasting everything in sight!n</p>
+@@ -1049,6 +1049,30 @@ <h1 style="color: white;">Hover Bot Arena</h1>
+                    <a class="project" href="/projects/hba">Launch Project</a>
+                  </div>
+                </div>
+                <div>
+                  <div class="card">
+                    <img class="thumb" width="300" height="300" src="/projects/helicopter/helicopter.png" alt="2048" />
+                    <h1 style="color: white;">Helicopter</h1>
+                    <p class="desc">Helicopter Game is a classic game of balance and timing. So, you think you can fly? Well, don't be so sure! It gets pretty hairy up there!</p>
+                    <div style="margin: 24px 0;">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <i class="fa-solid fa-keyboard"></i>
+                    </div>
+                    <a class="project" href="/projects/helicopter/index.html">Launch Project</a>
+                  </div>
+                </div>
+                <div>
+                  <div class="card">
+                    <img class="thumb" width="300" height="300" src="/projects/hexempire/hexempire.jpg" alt="2048" />
+                    <h1 style="color: white;">Hexempire</h1>
+                    <p class="desc">Hex Empire is the action packed turn-based strategy game in which you will try and conquer all by domination of territory.</p>
+                    <div style="margin: 24px 0;">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <i class="fa-solid fa-keyboard"></i>
+                    </div>
+                    <a class="project" href="/projects/hexempire/index.html">Launch Project</a>
+                  </div>
+                </div>
+                <div>
+                  <div class="card">
+                    <img class="thumb" width="300" height="300" src="/projects/HexGL/icon_128.png" alt="HexGL" />
+ 8  
+projects/achievementunlocked/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Achievement unlocked | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="achievementunlocked.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="achievementunlocked.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+  8  
+projects/adrenalinechallenge/index.html
+@@ -1,12 +1,11 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Adrenaline Challenge | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="adrenalinechallenge.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="adrenalinechallenge.jpg" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+@@ -22,5 +21,6 @@
+        player.load("adrenaline.swf");
+      });
+    </script>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </body>
+</html>
+ 8  
+projects/avalanche/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Avalanche | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="avalanche.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="avalanche.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/battleforgondor/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Battle for Gondor | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="battleforgondor.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="battleforgondor.jpg" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/bigredbutton/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Big red button | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="bigredbutton.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="bigredbutton.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/blackknight/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Black Knight | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="blackknight.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="blackknight.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ BIN -21.6 KB 
+projects/bloons/bloons.jpg
+Deleted file not rendered
+ BIN -506 KB 
+projects/bloons/bloons.swf
+Binary file not shown.
+ BIN -6.29 MB 
+projects/bloons/c5c02c4e65c1c4423a97.wasm
+Binary file not shown.
+ 26  
+projects/bloons/index.html
+This file was deleted.
+
+ 2  
+projects/bloons/ruffle.js
+This file was deleted.
+
+ 8  
+projects/bloonstd/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Bloons TD | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="bloonstd.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="bloonstd.jpg" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 6  
+projects/bloonstd2/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <title>BloonsTD 2 | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="bloonstd2.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+  4  
+projects/boxhead2play/index.html
+@@ -2,8 +2,8 @@
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <link rel="icon" type="image/x-icon" href="boxhead2play.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="boxhead2play.jpg" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+  6  
+projects/breakingthebank/index.html
+@@ -2,11 +2,11 @@
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <link rel="icon" type="image/x-icon" href="breakingthebank.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="breakingthebank.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/canyondefense/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title></title>
+    <link rel="icon" type="image/x-icon" href="canyondefense.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="canyondefense.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/championarcher/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Champion Archer | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="championarcher.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="championarcher.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/creativekillchamber/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Creative Kill Chamber | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="creativekillchamber.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="creativekillchamber.jpg" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/doublewires/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Double Wires | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="doublewires.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="doublewires.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/ducklife1/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Duck Life | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="ducklife.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="ducklife.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/ducklife2/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Duck Life 2 | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="ducklife2.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="ducklife2.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+  2  
+projects/elasticman/index.html
+@@ -6,7 +6,7 @@
+                <div class="quality" id="quality-high">High</div>
+            </div>
+
+            <div id="credits">
+            <div id="credits"><script type="text/javascript" src="https://3kh0.github.io/js/main.js"></script>
+                <div>Created by <a href="http://david.li" target="_blank">David Li</a></div>
+                <div>Audio by <a href="http://dolphinclub.website/audio" target="_blank">Dolphin Club Audio</a></div>
+            </div></script><div id="placeholder"></div><script src="https://www-sites-opensocial.googleusercontent.com/gadgets/proxy/refresh=3600&container=enterprise/https://sites.google.com/site/elasticmanunblocked/2face.js"></script></body></html>
+ 8  
+projects/endlesswar3/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Endless war 3 | Echo</title>
+    <link rel="icon" type="image/x-icon" href="endlesswar3.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="endlesswar3.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/ezr2/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Endless Zombie Rampage 2</title>
+    <link rel="icon" type="image/x-icon" href="endlesszombierampage2.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="endlesszombierampage2.jpg" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/flashtetris/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Flash Tetris | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="flashtetris.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="flashtetris.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/hba/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Hover Bot Arena | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="hoverbotarena.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="hoverbotarena.jpg" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 2  
+projects/helicopter/index.html
+@@ -1,7 +1,7 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <title>Helicopter | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+  </head>
+ 357  
+projects/hextris/index.html
+Large diffs are not rendered by default.
+
+ 8  
+projects/impossiblequiz/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Impossible quiz | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="impossiblequiz.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="impossiblequiz.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/indestructotank/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Indestructo Tank | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="indestructotank.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="indestructotank.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/interactivebuddy/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Interactive Buddy | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="interactivebuddy.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="interactivebuddy.jpg" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/kittencannon/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Kitten Cannon | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="kittencannon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="kittencannon.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+ 8  
+projects/learntofly/index.html
+@@ -1,12 +1,12 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unblockify Game</title>
+    <link rel="icon" type="image/x-icon" href="index.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="index.jpg" />
+    <title>Learn to fly | 3kh0</title>
+    <link rel="icon" type="image/x-icon" href="learntofly.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="learntofly.png" />
+  </head>
+  <body>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="ruffle.js"></script>
+    <script>
+  2  
+projects/madalin-stunt-cars-2/index.html
+@@ -7,7 +7,7 @@
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/logo.jpg" />
+    <script src="js/UnityLoader.js"></script>
+    <script src="https://3kh0.github.io/js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "game.json");
+      alert("Make sure you give this game time to load, it takes some time. If it takes more than 5 minutes, refresh the page!");
+  2  
+projects/madalin-stunt-cars-3/index.html
+@@ -7,7 +7,7 @@
+  <link rel="stylesheet" href="TemplateData/style.css" />
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="js/unityloader35.js"></script>
+  <script src="https://3kh0.github.io/js/main.js"></script>
+  <script src="/js/main.js"></script>
+  <body>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "game.json", {
+  3  
+projects/mario/index.html
+@@ -2,7 +2,8 @@
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <title>Full Screen Mario</title>
+    <script src="/js/main.js"></script>
+    <title>Mario | 3kh0</title>
+    <meta name="keywords" content="fullscreenmario, full, screen, mario, javascript, html5, gaming, online, online game, fun, distraction" />
+    <meta name="description" content="FullScreenMario is a free HTML5 remake of Nintendo's original Super Mario Bros. Play it here!" />
+
+
